@@ -1,0 +1,5 @@
+# RV64 Zicldst additions to RV32
+
+clwu     rd rs1       imm12 14..12=6 6..2=0x02 1..0=3
+cld      rd rs1       imm12 14..12=3 6..2=0x02 1..0=3
+csd     imm12hi rs1 rs2 imm12lo 14..12=3 6..2=0x0a 1..0=3

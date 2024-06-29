@@ -1,0 +1,8 @@
+clb      rd rs1       imm12 14..12=0 6..2=0x02 1..0=3
+clh      rd rs1       imm12 14..12=1 6..2=0x02 1..0=3
+clw      rd rs1       imm12 14..12=2 6..2=0x02 1..0=3
+clbu     rd rs1       imm12 14..12=4 6..2=0x02 1..0=3
+clhu     rd rs1       imm12 14..12=5 6..2=0x02 1..0=3
+csb     imm12hi rs1 rs2 imm12lo 14..12=0 6..2=0x0a 1..0=3
+csh     imm12hi rs1 rs2 imm12lo 14..12=1 6..2=0x0a 1..0=3
+csw     imm12hi rs1 rs2 imm12lo 14..12=2 6..2=0x0a 1..0=3
